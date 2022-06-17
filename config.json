@@ -1,6 +1,0 @@
-{
-  "logInfo": true,
-  "logToFile": true,
-  "logFile": "log.txt",
-  "startupCommand": "bash test.sh"
-}

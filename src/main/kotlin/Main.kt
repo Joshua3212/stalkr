@@ -1,8 +1,8 @@
-fun main(args: Array<String>) {
+fun main() {
 
     val config = ConfigReader("./config.json")
     val fileWriter = FileWriter(config.configAsJson.logFile, config.configAsJson.logInfo)
-    val runner = Runner(config.configAsJson.startupCommand, fileWriter)
+    Runner(config.configAsJson.command, fileWriter)
 
 
 }
